@@ -1,2 +1,2 @@
 # captcha_cracknet
-c07 captch crack net (envision )
+C07 captch crack net (envision )
