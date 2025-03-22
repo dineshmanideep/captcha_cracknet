@@ -7,8 +7,8 @@
 # Week 2 Assignment
 
 ## 📌 Task  
-- Refer to the tutorial: [PyTorch with Examples](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html).  
-- Focus on the **Custom `nn.Module`** section.  
+- Refer to the tutorial: [PyTorch with Examples (optim-version)](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#pytorch-optim).  
+- Focus on the *optim* section.  
 - The tutorial builds a model to approximate **sin(x)**.  
 - Your task: **Modify it to approximate cos(x)** instead.  
 - Show **graphs** for:  
