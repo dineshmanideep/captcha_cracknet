@@ -16,27 +16,6 @@
   - Any other relevant metrics
  ---
 
- # Assignment 3: Introduction to Computer Vision and Sequence Generation using Deep Learning
-
-## Convolutional Neural Networks (CNNs)
-
-### 📖 Learning Resources
-- **Understanding CNNs Intuition**: [Watch this video](https://www.youtube.com/watch?v=HGwBXDKFk9I)
-- **PyTorch Tutorial for Computer Vision**: [Watch from 14:00:20 to 19:19:06](https://www.youtube.com/watch?v=Z_ikDlimN6A)
-- **Mathematical Convolution (Optional)**: [Watch this video](https://www.youtube.com/watch?v=KuXjwB4LzSA)
-
----
-
-## Recurrent Neural Networks (RNNs) for Sequence Generation
-
-### 📖 Learning Resources
-- **Understanding RNNs and LSTMs**:
-  - [Video 1](https://www.youtube.com/watch?v=AsNTP8Kwu80)
-  - [Video 2](https://www.youtube.com/watch?v=YCzL96nL7j0&t=2s)
-- **Implementation of RNNs in PyTorch**: [Watch this video](https://www.youtube.com/watch?v=Gl2WXLIMvKA)
-
----
-
 # Assignment 3: Introduction to Computer Vision and Sequence Generation using Deep Learning
 
 ## Convolutional Neural Networks (CNNs)
