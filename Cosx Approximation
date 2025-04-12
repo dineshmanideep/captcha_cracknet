@@ -1,0 +1,33 @@
+import torch
+import math
+import matplotlib.pyplot as plt
+x = torch.linspace(-math.pi, math.pi, 2000)
+y = torch.cos(x)
+p = torch.tensor([1, 2, 3])
+xx = x.unsqueeze(-1).pow(p)
+model = torch.nn.Sequential(
+    torch.nn.Linear(3, 1),
+    torch.nn.Flatten(0, 1)
+)
+loss_fn = torch.nn.MSELoss(reduction='sum')
+
+learning_rate = 1e-3
+optimizer = torch.optim.RMSprop(model.parameters(), lr=learning_rate)
+losses = []
+for t in range(2000):
+    y_pred = model(xx)
+    loss = loss_fn(y_pred, y)
+    losses.append(loss.item())
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+plt.plot(losses)
+plt.xlabel('Epoch')
+plt.ylabel('loss')
+plt.title('loss vs epoch')
+plt.show()
+
+
+
+linear_layer = model[0]
+print(f'Result: y = {linear_layer.bias.item()} + {linear_layer.weight[:, 0].item()} x + {linear_layer.weight[:, 1].item()} x^2 + {linear_layer.weight[:, 2].item()} x^3')
